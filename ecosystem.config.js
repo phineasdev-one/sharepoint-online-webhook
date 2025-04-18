@@ -4,7 +4,7 @@ module.exports = {
       name: "sp-webhook",
       script: "index.js",
       env: {
-        PORT: 3000,
+        PORT: 3007,
         CLIENT_STATE: "1234567890abcdef"
       },
       watch: true,           // Tự restart khi code thay đổi (dev mode)
